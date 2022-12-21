@@ -1,6 +1,9 @@
-<div>tests</div>
+<div class="m-2">
+  tests
+</div>
+
 <div class="flex flex-col">
-  <div class="border" *ngFor='let test of tests'>
+  <div class="border m-2 rounded p-1" *ngFor='let test of tests'>
     <div>{{test.name}}</div>
     <div>{{test.description}}</div>
     <div>{{test.question_count}}</div>
