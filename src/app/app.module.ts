@@ -10,12 +10,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 // components
 import { TestsComponent } from './tests/tests.component'
-
+import { TopMenuComponent } from './layout/top-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestsComponent,
+    TopMenuComponent,
   ],
   imports: [
     CommonModule,
