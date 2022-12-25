@@ -9,7 +9,7 @@ import { Test } from './test'
 const httpOptions = {
   headers: new HttpHeaders({
     'Content-Type': 'application/json',
-    Authorization: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwic2NwIjoidXNlcnMiLCJhdWQiOm51bGwsImlhdCI6MTY3MTA0MTMwMywiZXhwIjoxNjczNjcxMDQ5LCJqdGkiOiIyNmE2MGIyYy1lODA1LTQ0NzYtOWJiNC01MWU4MDRmNmViZmEifQ.4zcTHXZbhabGOCEyTWw7Pf7uUM_AHVBSvC4kndpZvo4"
+    Authorization: "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMiIsInNjcCI6InVzZXJzIiwiYXVkIjpudWxsLCJpYXQiOjE2NzE4MjQ0MjksImV4cCI6MTY3NDQ1NDE3NSwianRpIjoiNGNjOGUyZTAtN2YxZC00N2JkLWE2NzItYjY0ZjVhODk2NmMyIn0.Qg7_rdoeXK6YUQKYDmI0XVhKeKcZ3jrUIJTJlXyogd4"
   })
 };
 
